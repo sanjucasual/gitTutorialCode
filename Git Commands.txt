@@ -1,0 +1,53 @@
+git init -> to create new git repo and intitalize it                 
+
+git status -> to see the files in staging are
+
+git add <file-name> to add file from unindexed to staging area
+
+git add . will add all the files into stash area
+
+
+git commit -m "commit message in log "
+
+ "git rm --cached <file>..." to unstage
+
+ git log  -> shows all the commits done so far
+ 
+git log --oneline  -> shows all the commits done so far 6
+
+
+
+
+
+reverting the code back
+ (checkout commit(easy) , revert commit(medium) ,reset commit(hard) 7 video)
+
+ checkout--> git checkout <hash number> (it detaches you from master to go back to master git checkout master)
+ 
+  revert --> commit(medium) git revert <hash number> revert commit mesage it put can go back in time to previous versions
+  reset --> git reset --hard deletes everything and take us back to last branch ...risky to use
+  
+  https://www.youtube.com/watch?v=QV0kVNvkMxc&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR&index=8
+  
+  
+  creating new branch (8)
+  
+  git branch <branchh name> --> to create new  branchn ex. (git branch feature)
+  git branch -a --> to see all branches 
+  
+  Delete a branch
+  git branch -D <branch name> --> go to master branch and run this command 
+    git branch -d <branch name> --> in case branch is merged we do this thing
+	
+MERGING GIT BRANCHES
+----------------------------------------
+git merge <branch name>   ---> go to master branch and than run this command 
+(fast forward when there are no changes in master)
+(recursive when master branch has changed )
+
+
+GIT HUB (10 https://www.youtube.com/watch?v=fQLK8Ib_SKk&index=10&list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR)
+
+git push https://github.com/sanjucasual/gitTutorialCode.git -f  master (To commit for the first time )
+
+	
