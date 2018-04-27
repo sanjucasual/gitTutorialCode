@@ -50,4 +50,8 @@ GIT HUB (10 https://www.youtube.com/watch?v=fQLK8Ib_SKk&index=10&list=PL4cUxeGkc
 
 git push https://github.com/sanjucasual/gitTutorialCode.git -f  master (To commit for the first time )
 
+origin is the name provided by git to full name of repo
+
+git pull origin master --> to fetch from remote branch 
+
 	
